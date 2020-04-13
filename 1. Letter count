@@ -1,0 +1,25 @@
+class LetterCount:
+  count=0
+  def __init__(self,word,al):
+    self.word=word
+    self.alph=al
+    
+  def Counting(self):
+    if(self.alph.isupper()):
+      self.alphO=self.alph.lower()
+    else:
+      self.alphO=self.alph.upper()
+      
+    for i in range(len(self.word)):
+      if(self.word[i]==self.alph or self.word[i]==self.alphO):
+        self.count=self.count+1
+        
+  def display(self):
+    print(self.count)
+    
+    
+word=input('Enter word')
+a=input('Enter letter to be counted')
+Obj=LetterCount(word,a)
+Obj.Counting()
+Obj.display()

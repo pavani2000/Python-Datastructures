@@ -3,7 +3,7 @@ class Smallnumbercount:
 	def __init__(self, mylist):
 		self.l1=mylist
 	
-	def findingbruh(self):
+	def finding(self):
 		a=len(self.l1)
 		for i in range(a):
 			self.ans.append(0)
@@ -21,5 +21,5 @@ n=int(input('Enter number of numbers teehee'))
 for i in range(n):
 	l.append(int(input('enter number')))
 Obj=Smallnumbercount(l)
-Obj.findingbruh()
+Obj.finding()
 Obj.display()

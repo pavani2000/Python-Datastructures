@@ -1,0 +1,20 @@
+class ToSmallLetters:
+	ans=""
+	def __init__(self,a):
+		self.a=a
+
+	def tosmall(self):
+		for i in range(len(self.a)):
+			if(ord(self.a[i])<=90 and ord(self.a[i])>=65):
+				self.ans=self.ans+chr(ord(self.a[i])+32)
+			else:
+				self.ans=self.ans+self.a[i]
+
+	def display(self):
+		print(self.ans)
+
+
+a=input("Enter String")
+o=ToSmallLetters(a)
+o.tosmall()
+o.display()

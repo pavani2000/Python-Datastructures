@@ -1,0 +1,23 @@
+class P_Sofdigits:
+	sum=0
+	product=1
+	def __init__(self,n):
+		self.n=n
+
+	def calculate(self):
+		x=self.n
+		while(True):
+			print(x%10)
+			self.sum+=(x%10)
+			self.product*=(x%10)
+			x=int(x/10)
+			if(x/10==0):
+				break
+	def display(self):
+		print(self.product-self.sum)
+
+
+n=int(input('Enter number'))
+ob=P_Sofdigits(n)
+ob.calculate()
+ob.display()

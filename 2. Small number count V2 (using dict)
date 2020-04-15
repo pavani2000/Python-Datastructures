@@ -1,4 +1,4 @@
-class Solution:
+class Solution:   					#has to be edited input(1,3,2,3,5) not working due to repeating numbers
 	def __init__(self,l):
 		self.l=l
 		self.a=[0]*len(l)

@@ -1,3 +1,4 @@
+#TRY WITHOUT NESTED FOR
 class JinS:
 	c=[]
 	def __init__(self,J,S):

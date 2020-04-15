@@ -1,0 +1,22 @@
+class Solution:
+	def __init__(self,l):
+		self.l=l
+		self.a=[0]*len(l)
+
+	def computes(self):
+		dict1={self.l[i]:i for i in range(n)}
+		c=0
+		for i in sorted(dict1):
+			self.a[dict1[i]]=c
+			c+=1
+		return(self.a)
+
+
+n=int(input("Enter length of array"))
+l=[]
+print("Enter array")
+for i in range(n):
+	l.append(int(input("")))
+
+o=Solution(l)
+print(o.computes())

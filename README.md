@@ -5,3 +5,4 @@ Summer2020
 3. Convert a given string to small letters   LC
 4. (Product of digits)- (Sum of digits) of a number   LC
 5. Jewels and Stones    LC
+6. Binary to Decimal conversion using Linked List

@@ -1,0 +1,28 @@
+class Node:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
+
+class LinkedList:
+	def __init__(self):
+		self.head=None
+	def add(self):
+		data=int(input("Enter digit:"))
+		node=Node(data)
+		node.next=self.head
+		self.head=node
+	def calculate(self):
+		power=0
+		number=0
+		while(self.head is not None):
+			n=self.head
+			number+=n.data*(2**power)
+			self.head=n.next
+			power+=1
+		print(number)
+
+n=int(input("Enter number of digits"))
+llist=LinkedList()
+for i in range(n):
+	llist.add()
+llist.calculate()

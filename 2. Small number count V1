@@ -1,3 +1,4 @@
+#FIND A LESS TIME COMPLEX ALGORITHM
 class Smallnumbercount:
 	ans=[]
 	def __init__(self, mylist):
@@ -23,3 +24,4 @@ for i in range(n):
 Obj=Smallnumbercount(l)
 Obj.finding()
 Obj.display()
+

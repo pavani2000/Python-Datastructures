@@ -1,14 +1,22 @@
-class Solution:   					#has to be edited input(1,3,2,3,5) not working due to repeating numbers
-	def __init__(self,l):
+class Solution:   					
+	def __init__(self,l,n):
 		self.l=l
-		self.a=[0]*len(l)
+		self.a=['']*n
+		self.n=n
 
 	def computes(self):
 		dict1={self.l[i]:i for i in range(n)}
 		c=0
-		for i in sorted(dict1):
-			self.a[dict1[i]]=c
+		k=''
+		for i in sorted(self.l):
+			if(i!=k):	
+				self.a[dict1[i]]=c
 			c+=1
+			k=i
+		for j in range(self.n):
+			if(self.a[j]==''):
+				self.a[j]=self.a[dict1[l[j]]]
+
 		return(self.a)
 
 
@@ -18,5 +26,5 @@ print("Enter array")
 for i in range(n):
 	l.append(int(input("")))
 
-o=Solution(l)
+o=Solution(l,n)
 print(o.computes())

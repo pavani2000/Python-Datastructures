@@ -5,4 +5,4 @@ Summer2020                                        LC=Leetcode qn, S=Success, C=N
 3. Convert a given string to small letters   LC   -S
 4. (Product of digits)- (Sum of digits) of a number   LC  -S
 5. Jewels and Stones    LC  -C
-6. Binary to Decimal conversion using Linked List
+6. Binary to Decimal conversion using Linked List   LC  -S

@@ -1,4 +1,4 @@
-class Node:
+class Node:									#here the head is actually pointing to the last digit initially
 	def __init__(self,data):
 		self.data = data
 		self.next = None

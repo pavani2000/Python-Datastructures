@@ -1,4 +1,4 @@
-class Solution:   					
+class Solution:   						#successful in LeetCode
 	def __init__(self,l,n):
 		self.l=l
 		self.a=['']*n

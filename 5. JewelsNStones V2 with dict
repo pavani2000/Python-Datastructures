@@ -1,0 +1,28 @@
+class Solution:
+	def JewelsinStones(self,S,J):
+		n=sorted(S)
+		j=n[0]
+		c=0
+		dict1={}
+		for i in n:
+			if(i==j):
+				c+=1
+			else:
+				dict1[j]=c
+				c=1
+				j=i
+		dict1[j]=c
+		c=0
+		for j in range(len(J)):
+			if(J[j] in dict1):
+				c+=dict1[J[j]]
+		del(n)
+		del(j)
+		del(i)
+		return c
+
+
+S=input("Enter string for stones")
+J=input("Enter string for Jewels with unique values")
+o=Solution()
+print(o.JewelsinStones(S,J))

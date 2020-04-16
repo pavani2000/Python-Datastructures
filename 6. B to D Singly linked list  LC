@@ -1,0 +1,14 @@
+class Solution:                                                   #with head pointing to the beginning digit
+    def getDecimalValue(self, head: ListNode) -> int:
+        n=head
+        power=0
+        while(n.next is not None):
+            power+=1
+            n=n.next
+        number=0
+        while(head is not None):
+            n=head
+            number+=n.val*(2**power)
+            head=n.next
+            power-=1
+        return(number)

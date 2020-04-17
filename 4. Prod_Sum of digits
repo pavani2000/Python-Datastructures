@@ -6,13 +6,10 @@ class P_Sofdigits:
 
 	def calculate(self):
 		x=self.n
-		while(True):
-			print(x%10)
+		while(x>0):
 			self.sum+=(x%10)
 			self.product*=(x%10)
 			x=int(x/10)
-			if(x/10==0):
-				break
 	def display(self):
 		print(self.product-self.sum)
 

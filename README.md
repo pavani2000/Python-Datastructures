@@ -8,3 +8,4 @@ Summer2020                       W= 'Result is right but submission incorrect LC
 6. Binary to Decimal conversion using Linked List   LC  -S
 7. Merging two Sorted Arrays    LC    -W
 8. First Bad Version (Binary Search Problem)    LC      -S
+9. Counting Sort Algorithm

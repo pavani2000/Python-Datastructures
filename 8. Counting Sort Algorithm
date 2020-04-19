@@ -1,0 +1,16 @@
+arr=[1,4,1,2,7,5,2]
+
+n=9  	#the range of the digits given in the list
+countarray=[0]*n
+sortarray=[0]*len(arr)
+
+for i in arr:		#counting number of elements of index in arr
+	countarray[i]+=1
+for i in range(n):	#counting actual position(by adding previous counts)
+	countarray[i]+=countarray[i-1]
+
+for i in range(len(arr)):   #put down each element in it's corresponding position
+	sortarray[countarray[arr[i]]-1]=arr[i]
+	countarray[arr[i]]-=1
+
+print(sortarray)

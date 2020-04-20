@@ -9,3 +9,6 @@ Summer2020                       W= 'Result is right but submission incorrect LC
 7. Merging two Sorted Arrays    LC    -W
 8. First Bad Version (Binary Search Problem)    LC      -S
 9. Counting Sort Algorithm
+10. Binary Tree pre-order traversal (recursive)     LC
+11. Binary Tree in-order traversal (recursive)      LC
+12. Binary Tree post-order traversa  (recursive)    LC

@@ -12,3 +12,4 @@ Summer2020                       W= 'Result is right but submission incorrect LC
 10. Binary Tree pre-order traversal (recursive and Iterative)     LC
 11. Binary Tree in-order traversal (recursive and Iterative)      LC
 12. Binary Tree post-order traversal  (recursive and Iterative)    LC
+13. Maximum Depth of Binary Tree  LC    -S

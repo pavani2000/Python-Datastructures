@@ -1,0 +1,21 @@
+# Output is a list of elements in appropriate order without distinction of levels
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    ans=[]
+    def levelOrder(self, root)
+        que=[]
+        que.append(root)
+        while(len(que)>1):
+            new=que.pop(0)
+            self.ans.append(new.val)
+            if new.left!=None:
+                que.append(new.left)
+            if new.right!=None:
+                que.append(new.right)
+        print(self.ans)

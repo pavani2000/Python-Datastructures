@@ -1,3 +1,5 @@
+#Output has a list of lists of each distinct level
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
